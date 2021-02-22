@@ -1,0 +1,25 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org" lang="">
+<head>
+    <title>Курс поднялся!</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+
+<style type="text/css">
+    A:link { text-decoration: none;
+        font-weight: bold}
+    A:visited { text-decoration: none; }
+    A:active { text-decoration: none; }
+    A:hover {
+        font-weight: bold;
+        color: red;
+    }
+</style>
+
+<!--/*@thymesVar id="baseCurrency" type="String"*/-->
+<!--/*@thymesVar id="currencyTo" type="String"*/-->
+<p th:text = "'Курс ' + ${baseCurrency} + ' по отношению к ' +  ${currencyTo} + ' поднялся!'"> </p>
+<a th:href="${linkToGif}">Такая гифка.</a> </p> <!--/*@thymesVar id="linkToGif" type="String"*/-->
+</body>
+</html>
