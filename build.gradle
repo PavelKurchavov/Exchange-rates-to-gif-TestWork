@@ -22,11 +22,7 @@ ext {
     set('springCloudVersion', "2020.0.1")
 }
 
-jar {
-    manifest {
-        attributes 'ExchangeRatesToGifApplication': 'com.kurchavov.exchangeratestogif'
-    }
-}
+apply plugin: 'java'
 
 dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-thymeleaf'
