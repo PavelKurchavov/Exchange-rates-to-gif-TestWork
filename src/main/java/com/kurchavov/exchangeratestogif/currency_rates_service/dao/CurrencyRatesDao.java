@@ -3,6 +3,8 @@ package com.kurchavov.exchangeratestogif.currency_rates_service.dao;
 import com.kurchavov.exchangeratestogif.currency_rates_service.model.CurrencyRates;
 import com.kurchavov.exchangeratestogif.currency_rates_service.rest_service_client.CurrencyRateRestServiceClient;
 import lombok.NonNull;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Component;
 import java.lang.reflect.InvocationTargetException;
 
@@ -10,6 +12,7 @@ import java.lang.reflect.InvocationTargetException;
 
 @Component
 public class CurrencyRatesDao {
+    private static final Logger LOGGER = LoggerFactory.getLogger(CurrencyRatesDao.class);
 
     // Метод возвращает объект с актуальными курсами валют
 
@@ -32,7 +35,7 @@ public class CurrencyRatesDao {
         try {
             rate = (String) rates.getClass().getDeclaredMethod("get" + currencyCode).invoke(rates);
         } catch (IllegalAccessException | InvocationTargetException | NoSuchMethodException e) {
-            e.printStackTrace();
+            LOGGER.error("Не удалось получить курс валюты!");
         }
         return rate;
     }
