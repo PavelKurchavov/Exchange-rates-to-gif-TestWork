@@ -1,6 +1,7 @@
-package com.kurchavov.exchangeratestogif.gif_service.rest_service_client;
+package com.kurchavov.exchangeratestogif.gif_service;
 
 import com.kurchavov.exchangeratestogif.gif_service.model.Gif;
+import com.kurchavov.exchangeratestogif.gif_service.rest_service_client.GifRestServiceFeignClient;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;

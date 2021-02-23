@@ -1,5 +1,6 @@
-package com.kurchavov.exchangeratestogif.gif_service.dao;
+package com.kurchavov.exchangeratestogif.gif_service;
 
+import com.kurchavov.exchangeratestogif.gif_service.dao.GifDao;
 import com.kurchavov.exchangeratestogif.gif_service.model.Gif;
 import com.kurchavov.exchangeratestogif.gif_service.rest_service_client.GifRestServiceClient;
 import org.junit.jupiter.api.Assertions;
@@ -41,13 +42,7 @@ class GifDaoTest {
 
 
     @Test
-    void getGifData() {
+    void getGifDataTest() {
         Assertions.assertEquals(expectedGifData, dao.getGifData(mockClient, apiKey, "rich", 234));
-    }
-
-
-    @Test
-    void getGifEmbedUrl() {
-        Assertions.assertEquals(expectedGifData.getEmbed_url(), dao.getGifEmbedUrl(expectedGifData));
     }
 }

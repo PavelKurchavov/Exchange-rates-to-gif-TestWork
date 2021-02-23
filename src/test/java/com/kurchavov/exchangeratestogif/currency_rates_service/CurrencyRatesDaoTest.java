@@ -1,4 +1,4 @@
-package com.kurchavov.exchangeratestogif.gif_service.dao;
+package com.kurchavov.exchangeratestogif.currency_rates_service;
 
 import com.kurchavov.exchangeratestogif.currency_rates_service.dao.CurrencyRatesDao;
 import com.kurchavov.exchangeratestogif.currency_rates_service.model.CurrencyRates;

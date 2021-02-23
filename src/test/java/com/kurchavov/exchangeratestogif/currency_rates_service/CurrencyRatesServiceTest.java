@@ -1,4 +1,4 @@
-package com.kurchavov.exchangeratestogif.services;
+package com.kurchavov.exchangeratestogif.currency_rates_service;
 
 import com.kurchavov.exchangeratestogif.currency_rates_service.CurrencyRatesService;
 import com.kurchavov.exchangeratestogif.currency_rates_service.dao.CurrencyRatesDao;
