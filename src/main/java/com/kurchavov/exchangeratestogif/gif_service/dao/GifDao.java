@@ -16,10 +16,4 @@ public class GifDao {
         Gif gif = client.searchGif(apiKey, searchQuery, offset);
         return gif.getData().get(0);
     }
-
-    // Возвращает ссылку на гифку
-
-    public String getGifEmbedUrl(Gif.GifData gifData) {
-        return gifData.getEmbedUrl();
-    }
 }

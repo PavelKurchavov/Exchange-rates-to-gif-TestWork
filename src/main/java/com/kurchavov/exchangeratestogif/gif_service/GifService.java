@@ -17,12 +17,12 @@ public class GifService {
     private final GifDao dao;
 
     @Value("${giphy.apiKey}")
-    String apiKey;
+    private String apiKey;
 
     // Метод возвращает ссылку на рандомную гифку по поисковому запросу (от первой до 1001)
 
     public String getRandomGif(String searchQuery) {
         Gif.GifData gifData = dao.getGifData(client, apiKey, searchQuery, (int) (Math.random() * 1000 + 1));
-        return gifData.getEmbed_url();
+        return gifData.getEmbedUrl();
     }
 }
