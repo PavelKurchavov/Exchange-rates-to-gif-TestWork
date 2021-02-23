@@ -1,4 +1,4 @@
-package com.kurchavov.exchangeratestogif.model;
+package com.kurchavov.exchangeratestogif.gif_service.model;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import lombok.AllArgsConstructor;
@@ -21,6 +21,10 @@ public class Gif {
     public static class GifData {
         private final String type;
         private final String embed_url;
+
+        public String getEmbedUrl() {
+            return this.embed_url;
+        }
     }
 
     @Getter

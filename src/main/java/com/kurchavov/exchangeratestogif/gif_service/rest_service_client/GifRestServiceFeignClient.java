@@ -1,6 +1,6 @@
-package com.kurchavov.exchangeratestogif.rest_service_client;
+package com.kurchavov.exchangeratestogif.gif_service.rest_service_client;
 
-import com.kurchavov.exchangeratestogif.model.Gif;
+import com.kurchavov.exchangeratestogif.gif_service.model.Gif;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.stereotype.Component;
 import org.springframework.web.bind.annotation.GetMapping;

@@ -1,8 +1,8 @@
-package com.kurchavov.exchangeratestogif.services;
+package com.kurchavov.exchangeratestogif.gif_service;
 
-import com.kurchavov.exchangeratestogif.dao.GifDao;
-import com.kurchavov.exchangeratestogif.model.Gif;
-import com.kurchavov.exchangeratestogif.rest_service_client.GifRestServiceClient;
+import com.kurchavov.exchangeratestogif.gif_service.dao.GifDao;
+import com.kurchavov.exchangeratestogif.gif_service.model.Gif;
+import com.kurchavov.exchangeratestogif.gif_service.rest_service_client.GifRestServiceClient;
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;

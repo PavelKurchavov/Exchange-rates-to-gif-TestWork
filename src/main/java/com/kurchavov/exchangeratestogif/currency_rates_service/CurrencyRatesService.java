@@ -1,8 +1,8 @@
-package com.kurchavov.exchangeratestogif.services;
+package com.kurchavov.exchangeratestogif.currency_rates_service;
 
-import com.kurchavov.exchangeratestogif.dao.CurrencyRatesDao;
-import com.kurchavov.exchangeratestogif.model.CurrencyRates;
-import com.kurchavov.exchangeratestogif.rest_service_client.CurrencyRateRestServiceClient;
+import com.kurchavov.exchangeratestogif.currency_rates_service.dao.CurrencyRatesDao;
+import com.kurchavov.exchangeratestogif.currency_rates_service.model.CurrencyRates;
+import com.kurchavov.exchangeratestogif.currency_rates_service.rest_service_client.CurrencyRateRestServiceClient;
 import com.kurchavov.exchangeratestogif.util.Util;
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Value;

@@ -1,4 +1,4 @@
-package com.kurchavov.exchangeratestogif.model;
+package com.kurchavov.exchangeratestogif.currency_rates_service.model;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import lombok.AllArgsConstructor;

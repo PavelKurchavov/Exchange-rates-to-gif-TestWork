@@ -1,6 +1,7 @@
-package com.kurchavov.exchangeratestogif.rest_service_client;
+package com.kurchavov.exchangeratestogif.currency_rates_service.rest_service_client;
 
-import com.kurchavov.exchangeratestogif.model.CurrencyRates;
+import com.kurchavov.exchangeratestogif.currency_rates_service.model.CurrencyRates;
+import com.kurchavov.exchangeratestogif.currency_rates_service.rest_service_client.CurrencyRateRestServiceClient;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.stereotype.Component;
 import org.springframework.web.bind.annotation.GetMapping;

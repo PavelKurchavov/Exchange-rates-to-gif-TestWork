@@ -1,8 +1,9 @@
 package com.kurchavov.exchangeratestogif.services;
 
-import com.kurchavov.exchangeratestogif.dao.CurrencyRatesDao;
-import com.kurchavov.exchangeratestogif.model.CurrencyRates;
-import com.kurchavov.exchangeratestogif.rest_service_client.CurrencyRateRestServiceFeignClient;
+import com.kurchavov.exchangeratestogif.currency_rates_service.CurrencyRatesService;
+import com.kurchavov.exchangeratestogif.currency_rates_service.dao.CurrencyRatesDao;
+import com.kurchavov.exchangeratestogif.currency_rates_service.model.CurrencyRates;
+import com.kurchavov.exchangeratestogif.currency_rates_service.rest_service_client.CurrencyRateRestServiceFeignClient;
 import com.kurchavov.exchangeratestogif.util.Util;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;

@@ -1,7 +1,7 @@
-package com.kurchavov.exchangeratestogif.dao;
+package com.kurchavov.exchangeratestogif.gif_service.dao;
 
-import com.kurchavov.exchangeratestogif.model.Gif;
-import com.kurchavov.exchangeratestogif.rest_service_client.GifRestServiceClient;
+import com.kurchavov.exchangeratestogif.gif_service.model.Gif;
+import com.kurchavov.exchangeratestogif.gif_service.rest_service_client.GifRestServiceClient;
 import lombok.NonNull;
 import org.springframework.stereotype.Component;
 
@@ -20,6 +20,6 @@ public class GifDao {
     // Возвращает ссылку на гифку
 
     public String getGifEmbedUrl(Gif.GifData gifData) {
-        return gifData.getEmbed_url();
+        return gifData.getEmbedUrl();
     }
 }

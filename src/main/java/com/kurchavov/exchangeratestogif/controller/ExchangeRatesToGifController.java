@@ -1,8 +1,7 @@
 package com.kurchavov.exchangeratestogif.controller;
 
-import com.kurchavov.exchangeratestogif.services.CurrencyRatesService;
-import com.kurchavov.exchangeratestogif.services.GifService;
-import lombok.AllArgsConstructor;
+import com.kurchavov.exchangeratestogif.currency_rates_service.CurrencyRatesService;
+import com.kurchavov.exchangeratestogif.gif_service.GifService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Controller;

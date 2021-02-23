@@ -1,7 +1,7 @@
-package com.kurchavov.exchangeratestogif.dao;
+package com.kurchavov.exchangeratestogif.currency_rates_service.dao;
 
-import com.kurchavov.exchangeratestogif.model.CurrencyRates;
-import com.kurchavov.exchangeratestogif.rest_service_client.CurrencyRateRestServiceClient;
+import com.kurchavov.exchangeratestogif.currency_rates_service.model.CurrencyRates;
+import com.kurchavov.exchangeratestogif.currency_rates_service.rest_service_client.CurrencyRateRestServiceClient;
 import lombok.NonNull;
 import org.springframework.stereotype.Component;
 import java.lang.reflect.InvocationTargetException;
