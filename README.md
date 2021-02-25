@@ -16,10 +16,12 @@ REST API гифок - https://developers.giphy.com/docs/api#quick-start-guide
 Инструкция по запуску:
 1. Скачать jar - архив из папки lib.
 2. Запустить.
-3. В браузере перейти по адресу localhost:8080/get_gif?to=code
+2.1. Для Windows - double click.
+2.2. Для  Linux - ввести в терминал команду java -jar service.jar
+4. В браузере перейти по адресу localhost:8080/get_gif?to=code
 
 (где code - трехзначный код валюты. Поддерживается GBP, JPY, RUB, EUR.
 Базовая валюта - USD.
 Параметры можно не указывать, по умолчанию стоит конвертация USD-EUR)
 
-4.Наслаждаться рандомной гифкой.
+4.Наслаждаться гифкой.
