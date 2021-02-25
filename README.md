@@ -25,3 +25,9 @@ REST API гифок - https://developers.giphy.com/docs/api#quick-start-guide
 Параметры можно не указывать, по умолчанию стоит конвертация USD-EUR)
 
 4.Наслаждаться гифкой.
+
+Docker:
+1.  Получить образ с DockerHub - docker pull pavelkurchavov/myservice:1
+2.  Запустить образ - docker run -d -p 8080:8080 -t pavelkurchavov/myservice:1
+3.  Перейти в браузере по адресу, указанному в инструкции по запуску выше.
+4.  Profit!
